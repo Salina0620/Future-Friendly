@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: mediumaquamarine;
+    padding: 1rem ;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+}
+
+/* nav section */
+nav{
+    background-color: gray;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+}
+
+
+/* nav section */
+
+
+/* about section */
+
+.box1{
+    background-color: goldenrod;
+    width: 35%;
+}
+.box2{
+    background-color: gold;
+    width: 65%;
+    
+}
+.box{
+    padding: 1rem;
+    float: left;
+    /* width: 50%; */
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+@media screen and (
+    max-width:600px
+) {
+   .box{
+    width: 100%;
+   } 
+}
+
+/* about section */
+
+/* footer */
+footer{
+    background-color: darkslategrey;
+    padding: 1rem;
+}
+footer
+
+
+.service-items1{
+    background-color: rgb(240, 255, 244);
+}
+.service-items2{
+    background-color: midnightblue;
+}
+.service-items3{
+    background-color: mintcream;
+}
+.service-items4{
+    background-color: rgb(17, 143, 46);
+}
+.service-items5{
+    background-color: rgb(64, 97, 67);
+}
+.service-items6{
+    background-color: rgb(212, 24, 199);
+}
+.service-item{
+    padding: 1rem;
+    float: left;
+    width: 16.66%;
+}
+
+.gallery-item{
+    float: left;
+    width: 25%;
+    padding: 1rem;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+}
